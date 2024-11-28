@@ -1,0 +1,58 @@
+ Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Larissa Ribeiro
+// Descrição   : LER IDADE DE VARIAS PESSOAS E CALCULAR AMEDIA DAS IDADES, ENCERRAR SE FOR NEGATIVO
+// Autor(a)    : LEVI LIVIA
+// Data atual  : 12/09/2024
+Var
+// Seção de Declarações das variáveis
+  IDADE: inteiro
+  MEDIA: real
+  CONTADOR: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ESCREVA("ESCREVA IDADE")
+LEIA (IDADE)
+ENQUANTO IDADE>=0 FACA
+  CONTADOR<-CONTADOR+1
+  MEDIA<-MEDIA+IDADE
+  ESCREVA("ESCREVA IDADE")
+  LEIA (IDADE)
+FIMENQUANTO
+  MEDIA<- MEDIA/CONTADOR
+  ESCREVA("A MEDIA DAS IDADES É:", MEDIA)
+Fimalgoritmo
+
+
+
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Larissa Ribeiro
+// Descrição   :
+// Autor(a)    : LEVI LIVIA
+// Data atual  : 12/09/2024
+Var
+// Seção de Declarações das variáveis
+ senha, login: caractere
+  a:logico
+
+Inicio
+escreva ("Escreva o seu login")
+leia(login)
+escreva ("escreva sua senha")
+leia(senha)
+se login=Admin e senha=Adimin123 então
+ a=verdadeiro
+ senao
+ a=falso
+ enquanto a=falso faca
+ escreva("Inserir novamente")
+ escreva ("Escreva o seu login")
+leia(login)
+escreva ("escreva sua senha")
+leia(senha)
+ fimenquanto
+ escreva("Bem vindo ao sistema")
+
+
+Fimalgoritmo

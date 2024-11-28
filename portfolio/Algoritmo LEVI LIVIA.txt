@@ -1,0 +1,118 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Larissa Ribeiro
+// Descrição   : CALCULAR A SOMA DOS NUMEROS DE 1 A 20
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 12/09/2024
+Var
+// Seção de Declarações das variáveis 
+ SOMA, cont: INTEIRO
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+cont<-1
+enquanto cont<=20 faça
+SOMA<-SOMA+cont
+cont<-cont+1
+fimenquanto
+escreva("A soma dos numeros de 1 a 20 é:", SOMA)
+
+
+Fimalgoritmo
+
+
+
+
+
+
+
+
+
+
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Larissa Ribeiro
+// Descrição   : CALCULAR OS NUMEROS PARES DE 1 A 20
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 12/09/2024
+Var
+// Seção de Declarações das variáveis 
+ PAR, cont: INTEIRO
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+cont<-1
+enquanto cont<=20 faca
+   PAR<-cont%2
+   
+   
+   se PAR=0 ENTAO
+     escreva(cont, "É par!")
+   fimse
+   
+   cont<-cont+1
+fimenquanto
+Fimalgoritmo
+
+
+
+
+
+
+
+
+
+
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Larissa Ribeiro
+// Descrição   : CALCULAR FATORIAL
+// Autor(a)    : LEVI LIVIA
+// Data atual  : 12/09/2024
+Var
+// Seção de Declarações das variáveis
+NUM, FAT: INTEIRO
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+FAT<-1
+ESCREVA("DIGITE O VALOR QUE DESEJA SABER O FATORIAL")
+LEIA(NUM)
+
+
+
+enquanto NUM>=1 faca
+   FAT<-FAT*NUM
+   NUM<- NUM - 1
+   ESCREVAL("O RESULTADO É:", FAT)
+fimenquanto
+Fimalgoritmo
+
+
+
+
+
+
+
+
+
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Larissa Ribeiro
+// Descrição   : LER 10 E CALCULAR A MÉDIA
+// Autor(a)    : LEVI LIVIA
+// Data atual  : 12/09/2024
+Var
+// Seção de Declarações das variáveis
+SOMA, NOT, MED:REAL
+ CONT: INTEIRO
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ CONT<-1
+ ENQUANTO CONT<=10    FAÇA
+ESCREVA("INSIRA A NOTA")
+LEIA (NOT)
+SOMA<-(SOMA+NOT)
+CONT<- CONT+1
+fimenquanto
+MED<- SOMA/10
+ESCREVA("A MEDIA DOS VALORES É:", MED)
+
+Fimalgoritmo

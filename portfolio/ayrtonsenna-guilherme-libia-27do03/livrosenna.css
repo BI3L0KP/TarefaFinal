@@ -1,0 +1,36 @@
+img {
+    width: 250px;
+
+}
+
+h1 {
+    font-size: 20px;
+    font-family: verdana;
+    text-align: center;
+}
+div{
+    text-align: center;
+    font-family: verdana;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+h3{
+    font-size: 18px;
+    font-weight: normal;
+    text-align:center;
+    margin-left: 150px;
+    margin-right: 150px
+}
+p{
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+
+
+
+}
+a{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(197, 10, 235);
+}
