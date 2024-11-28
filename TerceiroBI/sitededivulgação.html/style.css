@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+}
+
+#titulo{
+    background: #303030;
+    color: #fffFFF;
+    width: full;
+    height: 375px;
+    font-family: inter;
+    line-height: 10px;
+    
+}
+
+.tituloprincipal{
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    padding-top: 150px; 
+    margin-left: 50px;
+}
+
+.titulosecundario{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 50px;
+    padding-top: 50px; 
+}
+#informativo{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+
+.tituloinfo{
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 110px;
+    letter-spacing: 0px;
+    text-align: left;
+    display: flex;
+    font-weight: 600;
+}
+
+.textoinfo{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+#texto{
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-left: 50px;
+}
+
+#faleconosco{
+    background-color: #303030;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 60px;
+}
+.titulofaleconosco{
+    color: #fffFFF;
+    font-weight: 600;
+}
+.campo{
+    Width: 335px;
+    Height: 53px;
+    background-color: #FFFFFF;
+    color: #0000008f;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    font-size: 16px;
+    font: Raleway;
+}
+button{
+    background-color: #C07212;
+    color: white;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 200px;
+    height: 54px;
+    border-radius: 10px;
+    font: Raleway;
+    font-size: 20px;
+}
+button:hover{
+    background-color:#C07212;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0px 15px 20px 0px #c0721241;
+    width: 200px;
+    height: 54px;
+    border-radius: 10px;
+
+}

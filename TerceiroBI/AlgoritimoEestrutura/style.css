@@ -1,0 +1,70 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color :#333;
+            text-align: center;
+            padding: 20px;
+            background: url("./corintthians.jpg")
+        }
+
+        form {
+            background-color: #8b0a0a;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(222, 333, 220, 0.1);
+            padding: 20px;
+            display: inline-block;
+            margin-top: 20px;
+            background: transparent;
+            border-color: #000000;
+        }
+
+        h1 {
+            color: #000000;
+            stroke-width: 100px;
+            font-family: fantasy;
+            stroke: #000000;
+            border: #000000;
+           font-size: 48px; 
+           font-weight: bold;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+            color: #a10404;
+        }
+
+        input[type="number"] {
+            padding: 10px;
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #790808;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #000000;
+            color: #a31212;
+            font-size: 16px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        button:hover {
+            background-color: #000000;
+        }
+            p{
+                color: #800404;
+                font-family: fantasy;
+                font-size: 24px; 
+                text-shadow: #000000;
+            }
+
+
+            

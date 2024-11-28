@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css" </head>
+
+<body>
+    <div class="container">
+        <h1>Registro de participantes</h1>
+        <form id="RegistroForm" action="https://formspree.io/f/xpwzavld" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+            <label for="cpf">cpf</label>
+            <input type="text" id="cpf" required>
+            <button type="submit">registrar</button>
+        </form>
+        <button id="Mostrarlista">Mostrar lista de participantes</button>
+        <ul id="listaparticipantes"></ul>
+    </div>
+
+    <script src="TESTEANTES.JS"></script>
+
+
+</body>
+
+</html>

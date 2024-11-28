@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ler 10 e menor</title>
+    <link rel="stylesheet" href="style.css">
+    <div class="form-box"></div>
+</head>
+<body>
+    <h1>Ler 10 numeros e ver qual é o menor utilizado, usando array</h1>
+    <form>
+        <label>Digite Um Número</label><br>
+        <input type="number" id="recebedora"><br>
+        <button type="button" id="armazenar"> Armazenar</button>
+        <button type="button" onclick="encontrarMenor()"> Encontrar menor numero</button>
+    </form>
+    <p id="resultado"></p>
+    <script>
+        let numeros = [];
+        document.getElementById("armazenar").onclick = function () {
+            let recebedora = parseFloat(document.getElementById("recebedora").value);
+            numeros.push(recebedora);
+            if (!isNaN (recebedora)) {
+            }
+           
+            document.getElementById("recebedora").value = "";
+        }
+
+        function encontrarMenor(){
+            if(numeros.length>0){
+                let menorNumero = Math.min(...numeros)
+                
+                document.getElementById("resultado").innerText = "os numeros digitados foram: " + numeros.join(",") + "\no menor numero digitado foi: " + menorNumero;
+            } else {
+                document.getElementById("resultado").innerText = "Nenhum Numero foi Armazenado";
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>

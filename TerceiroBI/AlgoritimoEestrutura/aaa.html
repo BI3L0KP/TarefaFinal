@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de participantes</h1>
+        <div id="faleconosco">
+            <form id="registroForm" action="https://formspree.io/f/xpwzavld" method="POST">
+                <label>
+                    Nome:
+                    <textarea name="nome" required></textarea>
+                </label>
+                <label>
+                    Email:
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    CPF:
+                    <textarea name="cpf" required></textarea>
+                </label>
+                <label>
+                    Código:
+                    <textarea name="codigo" required></textarea>
+                </label>
+                <button type="submit">ENVIAR</button>
+            </form>
+        </div>
+        <button id="Mostrarlista">Mostrar lista de participantes</button>
+        <ul id="listaparticipantes"></ul>
+    </div>
+
+    <script>
+        document.getElementById('Mostrarlista').addEventListener('click', function() {
+            window.location.href = "https://formspree.io/forms/xpwzavld/submissions";
+        });
+    </script>
+</body>
+</html>
