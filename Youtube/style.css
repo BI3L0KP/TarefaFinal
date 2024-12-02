@@ -1,0 +1,47 @@
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 50px;
+}
+#textovideo{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.carrossel{ 
+    background-color: red;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+}
+.card{
+    margin-left: 50px;
+
+}
+
+#cards{
+    margin-top: 50px;
+    display: grid;
+    grid-auto-flow: column;
+}
+#setaesquerda{
+    display: none;
+}
+.seta{
+    margin-top: 50%;
+    cursor: pointer;
+}
+.seta:hover{
+    transform: translateX(7px);
+    transition: 0.5s;
+}
+#Bruna{
+    display: none;
+}
