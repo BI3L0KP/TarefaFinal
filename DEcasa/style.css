@@ -1,0 +1,152 @@
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 50px;
+    margin-top: 70px;
+}
+
+#tituloo{
+    margin-top: -50px;
+}
+
+#textovideo{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.carrossel{ 
+    margin-top: -20px;
+    background-color: rgb(103, 172, 163);
+}
+
+#Leonardo {
+    width: 600px;
+    height: 350px;
+    border: 5px solid #000; 
+    border-radius: 10px; 
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+}
+
+.card{
+    margin-left: 50px;
+    border: 5px solid #000; 
+    border-radius: 10px; 
+}
+
+#Samanta {
+    width: 600px;
+    height: 350px;
+    border: 5px solid #000; 
+    border-radius: 10px; 
+}
+  
+#cards{
+    margin-top: 50px;
+    display: grid;
+    grid-auto-flow: column;
+}
+#setaesquerda{
+    display: none;
+}
+.seta{
+    margin-top: 50%;
+    cursor: pointer;
+}
+.seta:hover{
+    transform: translateX(7px);
+    transition: 0.5s;
+}
+#Bruna{
+    width: 600px;
+    height: 350px;
+    display: none;
+}
+#menu {
+    background-color:rgb(164, 203, 212);
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  #menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+  }
+  
+  #menu ul li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu ul li a {
+    display: block;
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    padding: 15px 20px; 
+    transition: background-color 0.3s ease; 
+  }
+  #menu ul li a:hover {
+    background-color: #535353;
+  }
+
+ body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #2c3e50;
+    font-weight: bold;
+}
+#menu {
+    background-color: #3498db;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#menu ul li {
+    margin-right: 20px;
+}
+
+#menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+#menu ul li a:hover {
+    background-color: #2980b9;
+}
+
